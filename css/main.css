@@ -1,1 +1,82 @@
+nav ul li {
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 5px 10px;
+	background-color: white;
+	/*color: grey;*/
+
+}
+/*5. In CSS: Add a hover effect to the list-items that changes their background-color and adds a border.*/
+
+
+nav ul li:hover {
+	transform: scale(1.2);
+	background-color: /*#ea664e*/;
+	border: 5px solid green;
+}
+
+/*6. Test out your hover effect and make sure they're working. If they are, select your navbar's li elements and add the following CSS transition property and value: "transition: 0.5s ease;". What's different?*/
+
+nav ul li {
+	transition: 1.0s ease;
+}
+li:hover a {
+	text-decoration: none;
+	color: white;
+	transition: 0.3s ease;
+}
+/*7. In CSS: Now make the text inside your functioning links change color and grow to a larger font-size on hover*/
+
+
+nav ul li:hover {
+	transform:scale(1.2);
+	background-color: tomato;
+	border: green;
+
+}
+
+/*9. In CSS: Center your button elements on your page.*/
+
+ button {
+	display: inline-block;
+	padding: 15px 20px;
+	margin: 35px 45px;
+	background-color: white;
+	text-align: center;
+
+}
+
+/*10. In CSS: Add different styles to each button to make them have a flat design. Now add additional padding to your buttons and note how they change.
+*/
+
+button {
+	background-color: tomato;
+	color: beige;
+	border: none;
+	border-radius: 5px;
+	padding: 20px 25px;
+	margin: 45px;
+	transition: 0.25s ease;
+}
+
+
+
+
+/*11. In CSS: Add a hover effect for your buttons so that they change to a slightly darker color (hint: you'll need to use your inspector's color slider in styles tab for this) and their text turns white on hover*/
+
+
+button:hover {
+	background-color: #f85437;
+	color: beige;
+	border: 3px solid green;
+}
+
+div#buttons {
+	text-align: center;
+	padding: 50px 0;
+}
+
+
+
+
 
